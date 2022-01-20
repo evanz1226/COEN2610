@@ -1,2 +1,2 @@
 # COEN2610
-Simple source code example for introductory Software Methodologies class
+Simple source code examples for introductory Software Methodologies class
