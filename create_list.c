@@ -11,9 +11,10 @@ int main(void)
 {
     FILE *fd;
     int i;
+    const char *filename = {"list.txt"};
 
     /* Create file */
-    fd = fopen("list.txt", "w");
+    fd = fopen(filename, "w");
     if(fd == NULL)
     {
         printf("Error!");   
@@ -25,5 +26,7 @@ int main(void)
         fprintf(fd, "%2.2d\n", i);
     }
     fclose(fd);
+
+    printf("File created: %s\n", filename);
     exit(0);
 }
