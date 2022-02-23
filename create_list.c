@@ -20,8 +20,8 @@ int main(void)
         printf("Error!");   
         exit(1);             
     }
-    /* Loop to write 100 numbers to the file */
-    for( i = 0; i< 100; i++)
+    /* Loop to write 1000 numbers to the file */
+    for( i = 0; i< 1000; i++)
     {
         fprintf(fd, "%2.2d\n", i);
     }
